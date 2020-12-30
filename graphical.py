@@ -1,7 +1,9 @@
-import sys, math, random
-import game
+import math, random
+
 
 # CHANGE THESE TO MAKE THE GAME RUN SLOWER OR FASTER:
+import game
+
 ACC = 1
 TIME_PER_SWAP = 0.35 / ACC
 TIME_PER_MATCH = 0.35 / ACC

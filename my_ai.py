@@ -7,8 +7,6 @@ import ppo
 import numpy as np
 from matplotlib import pyplot as plt
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 # os.environ['SDL_VIDEODRIVER']='dummy' # if you want to use the codes in
 # online notebook like Kaggle/Colab, should as this line to omit the pygame video render
 
